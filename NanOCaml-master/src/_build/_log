@@ -1,0 +1,44 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules main.mli > main.mli.depends # cached
+# Target: main.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules main.ml > main.ml.depends # cached
+# Target: keyPress.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:keyPress.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules keyPress.mli > keyPress.mli.depends # cached
+# Target: keyPress.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:keyPress.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o keyPress.cmi keyPress.mli # cached
+# Target: state.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:state.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules state.mli > state.mli.depends # cached
+# Target: textFile.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:textFile.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules textFile.mli > textFile.mli.depends # cached
+# Target: textFile.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:textFile.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o textFile.cmi textFile.mli # cached
+# Target: state.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:state.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o state.cmi state.mli # cached
+# Target: ternarySearchTree.mli.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:mli, file:ternarySearchTree.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules ternarySearchTree.mli > ternarySearchTree.mli.depends # cached
+# Target: ternarySearchTree.cmi, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:mli, file:ternarySearchTree.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o ternarySearchTree.cmi ternarySearchTree.mli # cached
+# Target: main.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o main.cmo main.ml # cached
+# Target: keyPress.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:keyPress.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules keyPress.ml > keyPress.ml.depends # cached
+# Target: keyPress.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:keyPress.cmo, file:keyPress.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o keyPress.cmo keyPress.ml # cached
+# Target: state.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:state.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules state.ml > state.ml.depends # cached
+# Target: state.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:state.cmo, file:state.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o state.cmo state.ml # cached
+# Target: ternarySearchTree.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:ternarySearchTree.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules ternarySearchTree.ml > ternarySearchTree.ml.depends # cached
+# Target: ternarySearchTree.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:ternarySearchTree.cmo, file:ternarySearchTree.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o ternarySearchTree.cmo ternarySearchTree.ml # cached
+# Target: textFile.ml.depends, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), extension:ml, file:textFile.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -modules textFile.ml > textFile.ml.depends # cached
+# Target: textFile.cmo, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, compile, extension:cmo, extension:ml, file:textFile.cmo, file:textFile.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson -o textFile.cmo textFile.ml # cached
+# Target: main.byte, tags: { package(ANSITerminal), package(oUnit), package(qcheck), package(str), package(unix), package(yojson), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package oUnit -package ANSITerminal -package str -package unix -package qcheck -package yojson keyPress.cmo textFile.cmo state.cmo ternarySearchTree.cmo main.cmo -o main.byte # cached
+# Compilation successful.
